@@ -6,11 +6,15 @@ Para a instalação dos pacotes sdl2, sdl2_image, sdl2_mixer, sdl2_ttf, sdl2_net
 
 ### Instalando o Homebrew
 
+Extraido de [brew.sh](https://brew.sh), digite no terminal a seguinte linha de comando sem o "$~"
+
 ```
   $~ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ### Instalando os Pacotes do SDL2
+
+Após instalar o Homebrew use os seguintes comandos para instalar a SDL2.
 
 ```
   $~ brew install sdl2
@@ -63,11 +67,11 @@ Para a instalação dos pacotes sdl2, sdl2_image, sdl2_mixer, sdl2_ttf, sdl2_net
 Repita o processo para as demais bibliotecas da sdl2 com **cuidado para não adicionar os arquivos que são atalhos com a extensão .dylib**.
 
 
-Feito isso o seu projeto do Xcode já é capaz de encontrar as bibliotecas da SDL2 basta adicionar as linhas
+Feito isso o seu projeto do Xcode já é capaz de encontrar a SDL2 basta adicionar as linhas
 
 ```
 	#include <SDL2/SDL.h>
 	#include <SDL2/SDL_pacote.h>
 ```
-a sua main onde "SDL_pacote.h" é o pacote especifico (SDL_mixer, SDL_ttf, SDL_net, SDL_image, SDL_...);
+à sua main onde "SDL_pacote.h" é o pacote especifico (SDL_mixer, SDL_ttf, SDL_net, SDL_image, SDL_...);
 
