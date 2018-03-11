@@ -8,6 +8,10 @@
 
 const int WIDTH = 800, HEIGHT = 600;
 
+/*
+    Este codigo serve para testar se conseguimos inicializar a biblioteca SDL, caso sucesso prosseguimos para instanciar uma janela da SDL com resolução 800x600.
+ */
+
 int main (int agrc, char *argv[]){
     
     if (SDL_Init(SDL_INIT_EVERYTHING) < 0){
