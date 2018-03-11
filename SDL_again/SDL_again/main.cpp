@@ -9,7 +9,7 @@
 const int WIDTH = 800, HEIGHT = 600;
 
 /*
-    Este codigo serve para testar se conseguimos inicializar a biblioteca SDL, caso sucesso prosseguimos para instanciar uma janela da SDL com resolução 800x600.
+    Neste ponto o codigo acompanhou os tutoriais do canal Sonar Systems do youtube até o video 2, que consistem em inicializar a SDL, criar uma janela e terminar o programa quando clicarmos para sair.
  */
 
 int main (int agrc, char *argv[]){
