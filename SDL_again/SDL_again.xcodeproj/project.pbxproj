@@ -33,6 +33,8 @@
 		0935C3F02053451B0031C669 /* libSDL2_image-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_image-2.0.0.dylib"; path = "../../../../../usr/local/Cellar/sdl2_image/2.0.3/lib/libSDL2_image-2.0.0.dylib"; sourceTree = "<group>"; };
 		0935C3F2205345600031C669 /* libSDL2_mixer-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_mixer-2.0.0.dylib"; path = "../../../../../usr/local/Cellar/sdl2_mixer/2.0.2_3/lib/libSDL2_mixer-2.0.0.dylib"; sourceTree = "<group>"; };
 		0935C3F42053456F0031C669 /* libSDL2_ttf-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_ttf-2.0.0.dylib"; path = "../../../../../usr/local/Cellar/sdl2_ttf/2.0.14/lib/libSDL2_ttf-2.0.0.dylib"; sourceTree = "<group>"; };
+		099A0DFC2054C15600AA9178 /* hello_world.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = hello_world.bmp; sourceTree = "<group>"; };
+		099A0DFD2054C2D800AA9178 /* helloworld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helloworld.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,8 @@
 		0935C3DA205344A40031C669 = {
 			isa = PBXGroup;
 			children = (
+				099A0DFD2054C2D800AA9178 /* helloworld.png */,
+				099A0DFC2054C15600AA9178 /* hello_world.bmp */,
 				0935C3E5205344A40031C669 /* SDL_again */,
 				0935C3E4205344A40031C669 /* Products */,
 				0935C3ED205345090031C669 /* Frameworks */,
